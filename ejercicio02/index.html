@@ -1,0 +1,80 @@
+<html>
+    <head></head>
+    <body>
+        <h1>Formulario de Registro de Envio</h1>
+        <hr />
+        <form >
+            <br />
+            <br />
+            <label for="nombre">Nombre:</label>
+            <br />
+            <input type="text" id="nombre" name="nombre" />
+            <br />
+            <label for="apellido">Apellidos: </label>
+            <br />
+            <input type="text" id="apellido" name="apellido" />
+            <br />
+            <br />
+            <span>Direccion: </span>
+            <br />
+            <label for="departamento">Departamento</label>
+            <br />
+            <select id="departamento" name="departamento">
+                <option>Lima</option>
+                <option>Arequipa</option>
+                <option>Tacna</option>
+            </select>
+            <br />
+            <label for="provincia">Provincia:</label>
+            <br />
+            <select id="provincia" name="provincia">
+                <option>Lima</option>
+                <option>Arequipa</option>
+                <option>Tacna</option>
+            </select>
+            <br />
+            <label for="distrito">Distrito:</label>
+            <br />
+            <select id="distrito" name="distrito">
+                <option>Lima</option>
+                <option>San Borja</option>
+                <option>Jesus Maria</option>
+                <option>Tacna</option>
+                <option>Arequipa</option>
+            </select>
+            <br/>
+            <span>Tipo de envio:</span>
+            <br/>
+            <input type="radio" id="normal" name="tipo_envio" value="normal" checked/>
+            <label for="normal">Normal</label>
+            <br/>
+            <input type="radio" id="express" name="tipo_envio" value="express"/>
+            <label for="express">Express</label>
+            <br />
+            <span>Disponibilidad de Entrega: </span>
+            <br />
+            <input 
+                type="checkbox" 
+                id="maniana" 
+                name="dispo_entrega" 
+                value="m"/>
+            <label for="maniana">Mañana</label>
+            <br />
+            <input type="checkbox" id="tarde" name="dispo_entrega" value="t"/>
+            <label for="tarde">Tarde</label>
+            <br />
+            <input type="checkbox" id="noche" name="dispo_entrega"value="n"/>
+            <label for="noche">Noche</label>
+            <br/>
+            <label for="comentarios">Comentarios:</label>
+            <br />
+            <textarea id="comentarios" name="comentarios"> </textarea>
+            <br />
+            <label for="fecha">Fecha deseada de entrega:</label>
+            <input type="date" id="fecha" name="fecha"/>
+            <br />
+            <br />
+            <input type="submit" />
+        </form>
+    </body>
+</html>
